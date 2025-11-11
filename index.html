@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cas 2 - Blague sexiste - TABLEAU VIERGE</title>
+    <style>
+        body {
+            font-family: 'Calibri', Arial, sans-serif;
+            padding: 40px;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        
+        .cas {
+            background: #ffebee;
+            padding: 25px;
+            border-left: 5px solid #f44336;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+        
+        .cas h2 {
+            color: #c62828;
+            font-size: 24px;
+            margin: 0 0 15px 0;
+        }
+        
+        .cas p {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background: #f44336;
+            color: white;
+            padding: 20px 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            border: 2px solid #d32f2f;
+        }
+        
+        th:first-child {
+            width: 40%;
+        }
+        
+        td {
+            padding: 30px 15px;
+            border: 2px solid #bdc3c7;
+            vertical-align: top;
+            min-height: 100px;
+            font-size: 16px;
+        }
+        
+        td:first-child {
+            background: #ecf0f1;
+            font-weight: bold;
+            color: #2c3e50;
+            text-align: left;
+            font-size: 17px;
+        }
+        
+        td:last-child {
+            background: white;
+        }
+        
+        .editable {
+            min-height: 100px;
+            padding: 15px;
+            border: none;
+            width: 100%;
+            font-family: 'Calibri', Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+        
+        .editable:focus {
+            outline: 2px solid #f44336;
+            background: #fffef7;
+        }
+        
+        .author {
+            text-align: right;
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .download-btn {
+            display: block;
+            width: 250px;
+            margin: 30px auto;
+            padding: 15px 30px;
+            background: #f44336;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .download-btn:hover {
+            background: #d32f2f;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+            }
+            .download-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>CAS 2 : LA BLAGUE PENDANT LE COURS</h1>
+    </div>
+    
+    <div class="cas">
+        <h2>📋 SITUATION</h2>
+        <p>
+            Formation maintenance industrielle, 12 stagiaires dont 2 femmes. 
+            Vous expliquez le fonctionnement d'une machine. 
+        </p>
+        <p>
+            Un stagiaire (Jules) fait une blague à connotation sexuelle en montrant une pièce cylindrique. 
+            Quelques stagiaires rient. Les 2 femmes baissent les yeux. 
+        </p>
+        <p style="font-weight: bold; color: #c62828; margin-top: 15px;">
+            ⚡ Vous êtes en plein cours. Vous devez réagir IMMÉDIATEMENT.
+        </p>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>QUESTIONS</th>
+                <th>VOS RÉPONSES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1. Que faites-vous là, maintenant, immédiatement ?<br>(pendant le cours, devant le groupe)</td>
+                <td><textarea class="editable" placeholder="Écrivez votre réponse ici..."></textarea></td>
+            </tr>
+            <tr>
+                <td>2. Que dites-vous à Jules ?<br>(phrase exacte)</td>
+                <td><textarea class="editable" placeholder="Écrivez votre réponse ici..."></textarea></td>
+            </tr>
+            <tr>
+                <td>3. Que faites-vous pendant la pause ?<br>(voir Jules en individuel)</td>
+                <td><textarea class="editable" placeholder="Écrivez votre réponse ici..."></textarea></td>
+            </tr>
+            <tr>
+                <td>4. Que faites-vous après le cours ?<br>(traçabilité, signalement)</td>
+                <td><textarea class="editable" placeholder="Écrivez votre réponse ici..."></textarea></td>
+            </tr>
+            <tr>
+                <td>5. À ÉVITER : Quelles sont les erreurs à ne JAMAIS faire ?</td>
+                <td><textarea class="editable" placeholder="Écrivez votre réponse ici..."></textarea></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <button class="download-btn" onclick="window.print()">📥 TÉLÉCHARGER EN PDF</button>
+    
+    <div class="author">Mélanie LAIZET | Module 2 - Activité 3 - Cas 2</div>
+</body>
+</html>
