@@ -196,5 +196,19 @@
     <button class="download-btn" onclick="window.print()">📥 TÉLÉCHARGER EN PDF</button>
     
     <div class="author">Mélanie LAIZET | Module 2 - Activité 3 - Cas 2</div>
+    
+    <script>
+        // Auto-ajuster la hauteur des zones de texte
+        document.querySelectorAll('.editable').forEach(textarea => {
+            textarea.addEventListener('input', function() {
+                this.style.height = 'auto';
+                this.style.height = Math.max(100, this.scrollHeight) + 'px';
+            });
+            
+            // Ajuster la hauteur au chargement si du contenu existe
+            textarea.style.height = Math.max(100, textarea.scrollHeight) + 'px';
+        });
+    </script>
+
 </body>
 </html>
